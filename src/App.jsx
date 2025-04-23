@@ -8,6 +8,8 @@ function App() {
 
   const increaseCounter = () => {
     console.log(counter);
+    // setCounter(prevCounter => prevCounter+1);
+    // setCounter(prevCounter => prevCounter+1);
     if (counter < 20) {
       counter = counter + 1;
       setCounter(counter);
